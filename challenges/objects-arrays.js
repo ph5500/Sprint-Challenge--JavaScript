@@ -80,12 +80,11 @@ console.log(dinosaur_tyran.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-const obj = {
-  roar() {
-    console.log(obj);
-    return "RAWERSRARARWERSARARARRRR!";
-  }
+dinosaur_tyran.roar = function () {
+  return "RAWERSRARARWERSARARARRRR!";
 }
+
+console.log(dinosaur_tyran.roar());
 
 
 
